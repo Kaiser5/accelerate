@@ -1,0 +1,123 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Your Name!
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      2.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead nav ul li {
+	float: left;
+	margin: 0 10px;
+}
+
+/*Blog Post */
+.blog-post {
+	width: 50%;
+	margin-bottom: 2em;
+	float: left;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/*Case Studies*/
+
+article.case-study {
+	margin:40px 0 0 0;
+}
+
+aside.case-study-sidebar {
+	float:left;
+	width:314px;
+	margin: 0 40px 0 0;
+}
+
+div.case-study-images {
+	float: left;
+	width: 606px;
+}
+
+div.case-study-images img {
+	margin-bottom: 50px;
+	border: 1px solid #dddddd;
+	float:left;
+}
+
+/*Featured Work*/
+
+.featured-work .site-content {
+    display: block;
+}
+
+.featured-work h4 {
+	font-size: 700;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2.25em;
+}
+
+.homepage-featured-work {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+li.individual-featured-work {
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.individual-featured-work h3 {
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+recent-posts h4 {
+	text-align: left;
+}
+
+/*Archive-Case Studies*/
+	div. case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+/*Contact Page*/
+	#submit {
+	color: #45ac9d;
+}
