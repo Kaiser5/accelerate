@@ -107,7 +107,7 @@ li.individual-featured-work {
 	font-family: 'Open Sans', Arial, sans-serif;
 }
 
-recent-posts h4 {
+.recent-posts h4 {
 	text-align: left;
 }
 
@@ -117,7 +117,20 @@ recent-posts h4 {
 	height: auto;
 }
 
-/*Contact Page*/
-	#submit {
-	color: #45ac9d;
+/*Contact-Page*/
+
+#nf-field-4 {
+	float:right;
+	font-size: 18px;
+	background-color: #45ac9d;
 }
+
+#nf-field-3 {
+	width: 66%;
+}
+
+#contact-page .main-content {
+	width: 70%;
+}
+
+
