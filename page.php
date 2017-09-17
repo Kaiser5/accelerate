@@ -20,6 +20,11 @@ get_header(); ?>
 				<?php the_content(); ?>
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
+			  <h2><?php the_title(); ?></h2>
+			   <?php the_content(); ?>
+			<?php endwhile; // end of the loop. ?>
+		</div><!-- .main-content -->
+		
 
 	</div><!-- #primary -->
 
