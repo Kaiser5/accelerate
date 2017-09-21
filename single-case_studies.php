@@ -7,13 +7,13 @@
  * @subpackage Accelerate Marketing
  * @since Accelerate Marketing 2.0
  */
-
+ 
  get_header(); ?>
-
+ 
 <div id="primary" class="site-content">
 <div class="main-content" role="main">
 
-<?php while ( have_posts() ) : the_post();
+<?php while ( have_posts() ) : the_post(); 
 	$services = get_field('services');
 	$client = get_field('client');
 	$link = get_field('site_link');
@@ -31,8 +31,8 @@
 <?php the_content(); ?>
 	<p class="read-more-link"><a href="<?php echo $link; ?>">Visit Live Site </a></strong><p>
 	</aside>
-
-
+	
+	
 <div class="case-study-images">
 	<?php echo wp_get_attachment_image($image_1, $size); ?>
 	<?php echo wp_get_attachment_image($image_2, $size); ?>

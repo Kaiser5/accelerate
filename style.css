@@ -112,12 +112,25 @@ li.individual-featured-work {
 }
 
 /*Archive-Case Studies*/
-	div. case-study-images img {
+div. case-study-images img {
 	width: 100%;
 	height: auto;
 }
 
 /*Contact-Page*/
+
+#nf-field-1-container  {
+	width: 47%;
+}
+
+#nf-field-2-container  {
+	width: 47%;
+}
+
+#nf-field-3 {
+	height: 150px;
+	width: 200%;
+}
 
 #nf-field-4 {
 	float:right;
@@ -125,12 +138,44 @@ li.individual-featured-work {
 	background-color: #45ac9d;
 }
 
-#nf-field-3 {
-	width: 66%;
+.contact-page  .main-content {
+	width: 100%;
 }
 
-.contact-us .main-content {
-	width: 600px;
+ #nf-form-1-cont {
+	width:70%;
+	margin: 0 auto;
+	}
+
+.contact-page p  {
+	width: 66%;
+}	
+
+.contact-page h2  {
+	padding-left:161px;
+}	
+
+
+
+/*About Page*/
+
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
+
+.our-services {
+	.featured-work .site-content {
+    display: block;
+	}
+
+.featured-work h4 {
+	font-size: 700;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 2.25em;
+}
+
+
+
 
 
