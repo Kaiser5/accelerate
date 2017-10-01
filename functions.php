@@ -39,11 +39,27 @@
 			'slug' => 'case-studies' ),
         )
     );
+	
+	register_post_type ('service_customs', 
+		array (
+		'	labels' => array (
+				'name' => __ ( 'Service Customs' ),
+				'singular_name' => __( 'Service Custom' )
+				),
+				'public' => true,
+				'has_archive' => true,
+				'rewrite' => array(
+				'slug' => 'service-customs' ),
+			)
+		);
 }
 
 // Hook this custom post type function into the theme
    add_action( 'init', 'create_custom_post_types' );
 
+   
+   
+   
  //Body Class
  
  function accelerate_child_body_classes ( $classes ) {
