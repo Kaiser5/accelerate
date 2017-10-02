@@ -8,16 +8,6 @@
  */
 
 
-<?php
-/**
- * The template for displaying the about page
- *
- * @package WordPress
- * @subpackage Accelerate Marketing
- * @since Accelerate Marketing 2.0
- */
-
-
 get_header(); ?>
 
 	<div id="primary" class="about-page hero-content">
@@ -37,9 +27,7 @@ get_header(); ?>
           <h2>Our Services</h2>
             <p>We take pride in our clients and the content we create for them.<b>Here's a brief overview of our offered services.</p>
         </div>
-		 
-	 	
-		</aside>
+	 </aside>
 		
 	   <div class="service-custom-images">
 		  <a href="<?php the_permalink(); ?>">

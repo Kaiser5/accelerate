@@ -24,7 +24,7 @@ get_header(); ?>
 		  <h2><?php the_title(); ?></a></h2>
 		</aside>
 		
-	    <div class="case-study-images">
+	    <div class="service-custom-images">
 		  <?php echo wp_get_attachment_image($image_1, $size); ?>
 	      <?php echo wp_get_attachment_image($image_2, $size); ?>
 	      <?php echo wp_get_attachment_image($image_3, $size); ?>
