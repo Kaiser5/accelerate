@@ -58,9 +58,7 @@
    add_action( 'init', 'create_custom_post_types' );
 
    
-   
-   
- //Body Class
+  //Body Class
  
  function accelerate_child_body_classes ( $classes ) {
    if ( is_page ( 'contact-us' ) ) {

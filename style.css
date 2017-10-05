@@ -162,24 +162,26 @@ div. case-study-images img {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
 
-.our-services {
-	.featured-work .site-content {
-    display: block;
-	}
-
-.featured-work h4 {
-	font-size: 700;
+.main-content h2{
+	color: #fff;
 	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 2.25em;
+	font-family: 'Montserrat';
+	line-height: 2em;
+	padding-bottom: 70px;
 }
 
-/*About page*/
-
-.about-pages {
-    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+.site-content h2 p{
+	text-align: center;
+	font-family: 'Montserrat';
 }
 
+.site-content p {
+	display:relative;
+	padding-top: 80px;
+	
+}
 
-
-
+.service-button {
+	text-align:center;
+	padding-bottom: 60px; 
+}

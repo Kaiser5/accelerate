@@ -14,7 +14,7 @@ get_header(); ?>
 		  <?php while ( have_posts() ) : the_post(); 
 			$image_1 = get_field('image_1');
 			$size = "full";
-			$our-services = get_field('our_services');
+			$services = get_field('services');
 		?>
 			
 	<article class="case-study">

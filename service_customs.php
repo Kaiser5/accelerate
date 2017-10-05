@@ -22,6 +22,7 @@ get_header(); ?>
 	 <article class="service-custom">
 		<aside class="service-custom-sidebar">
 		  <h2><?php the_title(); ?></a></h2>
+		   <h5><?php echo $services; ?></h5>
 		</aside>
 		
 	    <div class="service-custom-images">
