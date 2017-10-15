@@ -7,7 +7,6 @@
  * @since Accelerate Marketing 2.0
  */
 
-
 	get_header(); ?>
 	
 	<div id="primary" class="page-about hero-content">
@@ -56,7 +55,5 @@
 	 </div>
 	</section>
 
-
-	
 
 <?php get_footer(); ?>
