@@ -145,7 +145,7 @@ div. case-study-images img {
  #nf-form-1-cont {
 	width:70%;
 	margin: 0 auto;
-	}
+}
 
 .contact-page p  {
 	width: 66%;
@@ -198,10 +198,11 @@ div. case-study-images img {
 
 .about-page-services {
 	padding-top: 30px;
-	width: 100%;
+	width: 85%;
+	margin: auto;
 }
 
-.about-content h2 {
+.about-content h1 {
 	font-family: 'Montserrat';
 	text-align: center;	
 	padding-top: 20px;
@@ -215,37 +216,61 @@ div. case-study-images img {
 /*About Services Section*/
 
 
-.about-page-services {
-	width: 85%;
-	margin: auto;
+.individual-services {
+	width: 100%;
+	margin: 0;
+	overflow: auto;
+	margin-bottom: 2em;
 }
+
+ .individual-services:nth-child(odd) figure {
+	display: flex;
+ 	float: left;
+ 	background-color: pink;
 	
-.services-content h2 {
-	float: left;
-	width: 30%;
-	margin: auto;
-}
-
-.services-content (even) h2 {
-	float: right;
-}
-
-.services-content  p  {
-	float:left;
-	width: 70%;
-	text-align: left;
-}	
+ }
  
- .services-content (even) p {
-	float:right;
-}	
-
-.individual-services figure  {
-	float: left;
-	width: 30%;
-}
-
-.individual-services (even) figure  {
+ .individual-services:nth-child(even) figure {
+	display: flex;
 	float: right;
-}
+	margin-right: 0;
+ }
+  
+ .individual-services:nth-child(odd) h2 {
+	 float: left;
+	 padding-left: 13%;
+ }
+ 
+ .individual-services:nth-child(even) h2 {
+  	margin-bottom: 0;
+	text-align: left;
+	width: 30%;
+  }
+  
+ .individual-services:nth-child(odd) p {
+	 float:right;
+	 padding-left: 5%;
+	 paddin-top: 0;
+	 text-align: justify;
+	 width: 70%;
+ }
 
+ .individual-services:nth-child(even) p {
+	 float:left;
+	 width: 70%;
+	 padding-right: 5%;
+	 text-align: justify;
+ }
+
+ .service-contactus {
+	 text-align: center;
+	 border-top: 1px solid #bfbfbf;
+	 padding-top: 3%;
+	 padding-bottom: 3%;
+ }
+ 
+ .button {
+	 margin-left: 5%;
+ }
+
+ 

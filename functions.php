@@ -67,6 +67,7 @@
 	   return $classes;
 	}
    add_filter ('body_class', 'accelerate_child_body_classes');
+   
 
 
  
