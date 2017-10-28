@@ -19,9 +19,18 @@
 					<p>&copy; <?php bloginfo('title'); ?>, LLC
 				</div>
 
-				<nav class="social-media-navigation" role="navigation">
-					<?php wp_nav_menu( array( 'theme_location' => 'social-media', 'menu_class' => 'social-media-menu' ) ); ?>
-				</nav>
+				<div class="social-media" role="navigation">
+					
+						
+				  <a href="https://twitter.com/Skillcrush"><i class="fa fa-twitter circle"></i>
+				    <span class="screen-reader-text">Twitter</span></a>
+				  <a href="https://facebook.com/Skillcrush"><i class="fa fa-facebook circle"></i>
+				    <span class="screen-reader-text">facebook</span>
+				  <a href="https://www.linkedin.com/company/skillcrush"><i class="fa fa-linkedin circle"></i>  
+				    <span class="screen-reader-text">linkedin</span>
+				</div>
+				
+				
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 

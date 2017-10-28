@@ -68,6 +68,14 @@
 	}
    add_filter ('body_class', 'accelerate_child_body_classes');
    
+   
+  // Register Menus
+ if (!wp_style_is( 'fontawesome', 'enqueued' )) {
+    wp_register_style( 'fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', false, '4.6.1' );
+    wp_enqueue_style( 'fontawesome' );
+} 
+  
+  
 
 
  

@@ -263,6 +263,8 @@ div. case-study-images img {
  }
 
  .service-contactus {
+	 width: 70%;
+	 margin: 0 auto;
 	 text-align: center;
 	 border-top: 1px solid #bfbfbf;
 	 padding-top: 3%;
@@ -272,5 +274,58 @@ div. case-study-images img {
  .button {
 	 margin-left: 5%;
  }
+ 
+ 
+/* Social Media*/
+
+.social-media {
+	float: right;
+	padding-top: 1em;
+	margin-right: 0;
+}
+	
+.fa-twitter {
+	background: #000000;
+	color: #FFFFFF;
+	padding: 0.17em 0.20em;
+	border-radius: 50%;
+	margin: 0.15em;
+}	
+	
+.fa-facebook {
+	background: #000000;
+	color: #FFFFFF;
+	padding: 0.13em 0.4em;
+	border-radius: 50%;
+	margin: 0.15em;
+}
+	
+.fa-linkedin {
+	background: #000000;
+	color: #FFFFFF;
+	padding: 0.14em 0.3em;
+	border-radius: 50%;
+	margin: 0.15em;
+}
+	
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: polygon(0px 0px, 0px 0px,0px 0px, 0px 0px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    clip: auto !important;
+    display: block;
+    height: auto;
+    left: 5px;
+    top: 5px;
+    width: auto;
+    z-index: 100000; 
+}
 
  
