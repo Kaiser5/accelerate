@@ -20,16 +20,10 @@
 				</div>
 
 				<div class="social-media" role="navigation">
-					
-						
-				  <a href="https://twitter.com/Skillcrush"><i class="fa fa-twitter circle"></i>
-				    <span class="screen-reader-text">Twitter</span></a>
-				  <a href="https://facebook.com/Skillcrush"><i class="fa fa-facebook circle"></i>
-				    <span class="screen-reader-text">facebook</span>
-				  <a href="https://www.linkedin.com/company/skillcrush"><i class="fa fa-linkedin circle"></i>  
-				    <span class="screen-reader-text">linkedin</span>
-				</div>
-				
+				  <?php if (has_nav_menu ('social-media')); ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'social-media', 'link_before' => '<span class="screen-reader-text">', 'link_after' =>' </span>', 'menu_class' => 'social-media-menu' ) ); ?>
+				</nav>
+								  				
 				
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
