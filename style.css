@@ -2,7 +2,7 @@
  Theme Name:   Accelerate Theme Child
  Theme URI:    http://example.com/accelerate-theme-child/
  Description:  Accelerate Child Theme - Accelerate
- Author:       Your Name!
+ Author:       Lisa Kaiser
  Author URI:   http://example.com
  Template:     accelerate-theme
  Version:      2.0.0
@@ -13,15 +13,15 @@
 @import url("../accelerate-theme/style.css");
 
 .home-page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    background: url("img/building-img.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
 
 #masthead {
-    background: none repeat scroll 0 0 #45ac9d;
+    background: none repeat scroll 0 0 #407bbc;
 }
 
 .button {
-    background: none repeat scroll 0 0 #45ac9d;
+    background: none repeat scroll 0 0 #407bbc;
 }
 
 #masthead nav ul li {
@@ -33,12 +33,11 @@
 .blog-post {
 	width: 50%;
 	margin-bottom: 2em;
-	float: left;
 }
 
 .blog-post h4 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-    color: #a6a6a6;
+    color: #407bbc;
     text-transform: uppercase;
     margin: 2em 0 .5em;
 }
@@ -47,12 +46,13 @@
 	font-size: 1.5em;
 }
 
-.read-more-link {
+.read-more-link span{
 	font-family: 'Montserrat';
 	font-weight: 700;
-	color: #45ac9d;
+	color: #407bbc;
 	text-transform: uppercase;
 }
+
 
 /*Case Studies*/
 
@@ -112,48 +112,56 @@ li.individual-featured-work {
 }
 
 /*Archive-Case Studies*/
-div. case-study-images img {
+div.case-study-images img {
 	width: 100%;
 	height: auto;
 }
 
 /*Contact-Page*/
 
+#nf-form-1-cont {
+ background-color: #407bbc;
+ padding: 15px;
+ box-shadow: 0px 3px 5px #444; /* Creates a shadow around the form. */
+ border-radius: 9px; /* Creates curved corners. */
+ }
+ 
+ .main-content  {
+	width: 100%;
+}
+
+#nf-form-1-cont .main-content p {
+	width: 70%;
+	padding-bottom:25px;
+}	
+ 
 #nf-field-1-container  {
 	width: 47%;
+	margin: 0;
 }
 
 #nf-field-2-container  {
 	width: 47%;
+	float:right;
 }
 
 #nf-field-3 {
 	height: 150px;
-	width: 200%;
+	width: 100%;
 }
 
 #nf-field-4 {
 	float:right;
 	font-size: 18px;
-	background-color: #45ac9d;
-}
-
-.contact-page  .main-content {
-	width: 100%;
+	background-color: #fff;
+	color: #000;
+	border-radius: 9px;
 }
 
  #nf-form-1-cont {
 	width:70%;
 	margin: 0 auto;
 }
-
-.contact-page p  {
-	width: 66%;
-}	
-
-.contact-page h2  {
-	padding-left:161px;
-}	
 
 /*Service-Customs*/
 
@@ -181,7 +189,7 @@ div. case-study-images img {
 
 
 .page-about {
-    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    background: url("img/building-img.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
  
 .hero-content h2{
@@ -189,7 +197,7 @@ div. case-study-images img {
 	text-align: center;
 	font-family: 'Montserrat';
 	line-height: 2em;
-	padding-bottom: 70px;
+	padding-bottom: 90px;
 	vertical-align: center;
 	width: 960px;
 }
@@ -210,7 +218,7 @@ div. case-study-images img {
 
 .about-content p {
 	font-family: 'Montserrat';
-	text-align:center;
+	text-align: center;
 }	
 
 /*About Services Section*/
@@ -250,7 +258,7 @@ div. case-study-images img {
  .individual-services:nth-child(odd) p {
 	 float:right;
 	 padding-left: 5%;
-	 paddin-top: 0;
+	 padding-top: 0;
 	 text-align: justify;
 	 width: 70%;
  }
@@ -274,6 +282,7 @@ div. case-study-images img {
  .button {
 	 margin-left: 5%;
  }
+ 
  
  
  /*404 Page*/
@@ -306,8 +315,8 @@ ul.social-media-menu li {
 	font-family: 'Fontawesome';
 	font-size: 1.25rem;
 	padding: .3em;
-	content: '\f09a';
 	line-height: 1em;
+	content: '\f0e1';
 	width: 1em;
 	height: 1em;
 	border-radius: 50%;
@@ -316,7 +325,7 @@ ul.social-media-menu li {
 	background: #3b3b3b;
 }
 
-.social-media-menu a[href*="facebook.cm"]::before{content: '\f09a';}
+.social-media-menu a[href*="facebook.com"]::before{content: '\f09a';}
 .social-media-menu a[href*="twitter.com"]::before{content: '\f099';}
 .social-media-menu a[href*="dribble.com"]::before{content: '\f179';}
 .social-media-menu a[href*="plus.google.com"]::before{content: '\f0d5';}
@@ -327,7 +336,7 @@ ul.social-media-menu li {
 .social-media-menu a[href*="flickr.com"]::before{content: '\f16e';}
 .social-media-menu a[href*="vimeo.com"]::before{content: '\f194';}
 .social-media-menu a[href*="instagram.com"]::before{content: '\f16d';}
-.social-media-menu a[href*="linkendin.com"]::before{content: '\f0e1 ';}
+.social-media-menu a[href*="linkedin.com"]::before{content: '\f0e1';}
 .social-media-menu a[href*="codepen"]::before{content: '\f1cb';}
 
 
@@ -360,8 +369,6 @@ div #secondary.widget-area {
 	width: 50%;
 	margin-left: 20%;
 }
-
-
 
 div #secondary.widget-area .tweets {
 list-style: none;

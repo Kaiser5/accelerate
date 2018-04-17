@@ -20,6 +20,8 @@
 	$image_1 = get_field('image_1');
 	$image_2 = get_field('image_2');
 	$image_3 = get_field('image_3');
+	$size="full";
+
  ?>
 
 <article class="case-study">
@@ -38,6 +40,7 @@
 	<?php echo wp_get_attachment_image($image_2, $size); ?>
 	<?php echo wp_get_attachment_image($image_3, $size); ?>
 </div>
+	
 
 </article>
 

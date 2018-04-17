@@ -19,9 +19,9 @@
 					<p>&copy; <?php bloginfo('title'); ?>, LLC
 				</div>
 
-				<div class="social-media" role="navigation">
+				<nav class="social-media" role="navigation">
 				  <?php if (has_nav_menu ('social-media')); ?>
-					<?php wp_nav_menu( array( 'theme_location' => 'social-media', 'link_before' => '<span class="screen-reader-text">', 'link_after' =>' </span>', 'menu_class' => 'social-media-menu' ) ); ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'social-media', 'link_before' => '<span class="screen-reader-text">', 'link_after' =>'</span>', 'menu_class' => 'social-media-menu' ) ); ?>
 				</nav>
 								  				
 				
