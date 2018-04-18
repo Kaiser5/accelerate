@@ -21,7 +21,6 @@
 	$image_2 = get_field('image_2');
 	$image_3 = get_field('image_3');
 	$size="full";
-
  ?>
 
 <article class="case-study">
